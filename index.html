@@ -579,13 +579,14 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" action="sign-up" method="post" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
                     type="text"
                     placeholder="John Doe"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -596,6 +597,7 @@
                     id="email"
                     type="email"
                     placeholder="john@example.com"
+                    name="email"
                     required
                   />
                 </div>
